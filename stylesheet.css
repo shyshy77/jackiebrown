@@ -1,0 +1,202 @@
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC:400,700');
+@import url('https://fonts.googleapis.com/css?family=Nunito+Sans:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i');
+/*font-family: 'Nunito Sans', sans-serif;*/
+/*font-family: 'Amatic SC', cursive;*/
+
+
+body {
+  background-image: url(https://static.pexels.com/photos/459480/pexels-photo-459480.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #f5e9e9;
+}
+
+/*The header puts space at the top of each page.*/
+.header {
+  font-weight: 400;
+  font-size: 40px;
+  justify-content: center;
+  display: flex;
+  height: 50px;
+  width: 100%;
+}
+
+.navbar {
+  max-width: 70%;
+  margin: auto;
+  display: flex;
+  font-family: 'Amatic SC', cursive;
+  font-weight: 700;
+  font-size: 35px;
+  height: 80px;
+  align-content: center;
+  align-items: center;
+  justify-content: space-around;
+}
+
+a:link {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:visited {
+    text-decoration: none;
+    color: white;
+}
+
+
+.logo {
+  height: 200px;
+  width: 200px;
+  background-image: url(images/logo.png);
+  background-size: cover;
+  opacity: 0.9;
+  
+}
+
+/*spacer adds space above the image gallery and under the navbar on the About page*/
+.spacer {
+  height: 50px;
+  
+}
+
+.image-container {
+  max-width: inherit;
+  text-align: center;
+  padding-top: 50px;
+}
+
+.pizza-img {
+  max-width: 65%;
+  
+}
+.footer {
+  max-width: 70%;
+  margin: auto;
+  display: flex;
+  padding: 50px;
+  justify-content: space-around;
+}
+
+/*address and hours are inside the footer*/
+
+.address {
+  font-family: 'Amatic SC', cursive;
+  font-weight: 400;
+  font-size: 30px;
+}
+
+.hours {
+  font-family: 'Amatic SC', cursive;
+  font-weight: 500;
+  font-size: 30px;
+}
+
+
+.gallery-container {
+  max-width: 70%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  align-content: center;
+  
+}
+.gallery-img {
+  width: 30%;
+  max-height:310px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+  border: 2px solid black;
+}
+
+/*Styling for About page*/
+/*row class contains map and text container*/
+
+
+.about-us-text-container {
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+  text-align: center;
+  align-items: center;
+  background-color: #2E5266;
+  height: 450px;
+  width: 500px;
+  font-size: 30px;
+  font-family: 'Amatic SC', cursive;
+  color: #f5e9e9;
+  font-weight: 700;
+  opacity: 0.9;
+  justify-content: center;
+  border-radius: 15px;
+  padding: 10px;
+ 
+}
+
+.map {
+  background-image: url(images/map.png);
+  border-radius: 15px;
+  width: 450px;
+  height: 450px;
+  margin: 20px auto;
+  opacity: 0.9;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  display: flex;
+  
+}
+
+
+
+h3 {
+  font-family: 'Amatic SC', cursive;
+  font-weight: 500;
+  font-size: 25px;
+  color: #29335C;
+}
+
+
+
+
+/*Styling for Menu*/
+
+
+h1 {
+  font-size: 50px;
+  color: #29335C;
+}
+
+h2 {
+  color: #AD6440;
+  font-size: 20px;
+}
+
+p {
+  color: #433B33;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.menu-container {
+  padding: 100px;
+}
+
+
+.menu {
+  display: flex;
+  background-image: url(https://static.pexels.com/photos/349609/pexels-photo-349609.jpeg);
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  background-size: cover;
+}
